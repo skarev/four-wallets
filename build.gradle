@@ -32,6 +32,6 @@ subprojects {
 }
 
 apply plugin:'application'
-mainClassName = "com.four.wallets.App"
+mainClassName = "com.four.wallets.AppKt"
 applicationName = "four-wallets"
 task stage(dependsOn: ['clean', 'installDist'])
