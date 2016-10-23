@@ -15,13 +15,11 @@ dependencies {
 
 jar {
     manifest {
-        attributes(
-                'Main-Class': 'com.four.wallets.AppKt'
-        )
+        attributes('Main-Class': 'com.four.wallets.AppKt')
     }
 }
 
 apply plugin:'application'
 mainClassName = "com.four.wallets.AppKt"
-applicationName = "four-wallets"
+applicationName = "four-wallets-dev"
 task stage(dependsOn: ['clean', 'installDist'])
