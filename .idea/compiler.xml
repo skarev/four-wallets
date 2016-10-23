@@ -19,6 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="four-wallets-model_main" target="1.8" />
+      <module name="four-wallets-model_test" target="1.8" />
+      <module name="four-wallets-server_main" target="1.8" />
+      <module name="four-wallets-server_test" target="1.8" />
       <module name="four-wallets_main" target="1.8" />
       <module name="four-wallets_test" target="1.8" />
     </bytecodeTargetLevel>

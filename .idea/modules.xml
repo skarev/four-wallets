@@ -3,7 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-model/four-wallets-model.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-model/four-wallets-model.iml" group="four-wallets-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-model/four-wallets-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-model/four-wallets-model_main.iml" group="four-wallets-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-model/four-wallets-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-model/four-wallets-model_test.iml" group="four-wallets-model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-server/four-wallets-server.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-server/four-wallets-server.iml" group="four-wallets-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-server.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-server/four-wallets-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-server/four-wallets-server_main.iml" group="four-wallets-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-server/four-wallets-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-server/four-wallets-server_test.iml" group="four-wallets-server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets_main.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets_main.iml" group="four-wallets" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets_test.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets_test.iml" group="four-wallets" />
     </modules>
