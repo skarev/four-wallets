@@ -30,3 +30,8 @@ subprojects {
         main.java.srcDirs += 'src/main/kotlin'
     }
 }
+
+apply plugin:'application'
+mainClassName = "com.four.wallets.App"
+applicationName = "four-wallets"
+task stage(dependsOn: ['clean', 'installApp'])
