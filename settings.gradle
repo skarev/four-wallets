@@ -1,4 +1,3 @@
 rootProject.name = 'four-wallets'
-include 'four-wallets-model'
 include 'four-wallets-server'
 

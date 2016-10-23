@@ -1,1 +1,0 @@
-web: ./four-wallets-server/build/install/four-wallets/bin/four-wallets
