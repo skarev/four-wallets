@@ -10,6 +10,7 @@ buildscript {
 group 'com.four.wallets'
 version '1.0-SNAPSHOT'
 
+
 subprojects {
 
 
@@ -30,8 +31,3 @@ subprojects {
         main.java.srcDirs += 'src/main/kotlin'
     }
 }
-
-apply plugin:'application'
-mainClassName = "com.four.wallets.AppKt"
-applicationName = "four-wallets"
-task stage(dependsOn: ['clean', 'installDist'])
