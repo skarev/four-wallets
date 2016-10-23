@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets-server.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets_main.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets_main.iml" group="four-wallets" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/four-wallets_test.iml" filepath="$PROJECT_DIR$/.idea/modules/four-wallets_test.iml" group="four-wallets" />
+    </modules>
+  </component>
+</project>
