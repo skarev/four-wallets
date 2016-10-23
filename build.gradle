@@ -1,9 +1,5 @@
-group 'com.four.wallets'
-version '1.0-SNAPSHOT'
-
 buildscript {
-    ext.kotlin_version = '1.0.0'
-
+    ext.kotlin_version = '1.0.4'
     repositories {
         mavenCentral()
     }
@@ -11,20 +7,26 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
+group 'com.four.wallets'
+version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
-apply plugin: 'kotlin'
+subprojects {
 
-sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
+    apply plugin: 'kotlin'
 
-sourceSets {
-    main.java.srcDirs += 'src/main/kotlin'
-}
+    sourceCompatibility = 1.8
 
-dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+        testCompile group: 'junit', name: 'junit', version: '4.11'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
 }
